@@ -10,7 +10,10 @@ config_s2i
 
 ######## CUSTOMIZATION STARTS HERE ############
 
-
+cp -Rf /tmp/src/*.html ./
+DATE=$(date +%Y %M %d)
+echo "This Page was built on ${DATE} " > ./info.html
+echo "Amki insent, sed on light" > ./info.html
 
 
 ######## CUSTOMIZATION ENDS HERE ############
