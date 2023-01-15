@@ -12,7 +12,7 @@ config_s2i
 ######## CUSTOMIZATION STARTS HERE ############
 cp -rp /tmp/src/*.html ./
 DATE=(date +%F)
-echo "the buil $DATE" >> info.html
+echo "the buil $DATE" > info.html
 echo "Amki insent, sde on light" > info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
