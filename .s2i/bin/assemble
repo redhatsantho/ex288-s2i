@@ -10,10 +10,7 @@ config_s2i
 
 
 ######## CUSTOMIZATION STARTS HERE ############
-cp -rp *.html ./
-DATE=(date +%F)
-echo "The build $DATE" >> ./info.html
-echo "Amki insent: umber omni hotel" >> ./info.html
+
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
