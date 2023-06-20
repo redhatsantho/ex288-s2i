@@ -10,11 +10,7 @@ config_s2i
 
 
 ######## CUSTOMIZATION STARTS HERE ############
-cp -Rf /tmp/src/*.html /opt/app-root/src
-echo "umber omini hotel" >> /opt/app-root/src/index.html
-DATE=$(date +%Y-%m-%d)
-echo "Page built on $DATE" >> /opt/app-root/src/info.html
-echo "Amki insent, sed on light" >> /opt/app-root/src/info.html
+
 
 ######## CUSTOMIZATION ENDS HERE ############
 
