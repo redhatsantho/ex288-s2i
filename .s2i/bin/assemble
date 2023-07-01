@@ -13,8 +13,8 @@ config_s2i
 
 cp -Rf /tmp/src/*.html ./
 DATE=$(date +%F)
-echo "The webpage is deployed on $DATE" >> info.html
-echo "Amki insent, sed on light." >> info.html
+echo "The webpage is deployed on $DATE" >> ./info.html
+echo "Amki insent, sed on light." >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
